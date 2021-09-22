@@ -195,16 +195,16 @@ div.rsp {
 	z-index: 2;
 }
 
-#res-menu  ul {
+#res-menu ul {
 	margin-top: 12px;
 }
 
-#res-menu  ul li {
+#res-menu ul li {
 	list-style: none;
 	margin: 0 .4rem;
 }
 
-#res-menu  ul li a {
+#res-menu ul li a {
 	display: inline-block;
 	padding: .5rem 1.6rem;
 	font-size: 1.4rem;
@@ -215,7 +215,7 @@ div.rsp {
 	color: #fff;
 }
 
-#res-menu  ul li a::before {
+#res-menu ul li a::before {
 	content: "\f324";
 	font-family: "Font Awesome 5 Pro";
 	font-size: 12px;
@@ -229,7 +229,7 @@ div.rsp {
 
 }
 
-#res-menu  ul li a:hover{
+#res-menu ul li a:hover{
 	color: #fff;
 }
 
