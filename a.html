@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>10-U Ders Programı ve Ödev Listesi</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.14.0/css/all.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+	<link rel="icon" href="image/icon.png" type="image/x-icon" />
+	<link
+	rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+	/>
+</head>
+<body>
+
+	<nav>
+		<div id="logo-box">
+			<div class="logo">
+				<a href="">Rewy</a>
+			</div>
+		</div>
+		<div id="menu">
+			<ul>
+				<li>
+					<a class="bars"><i class="fas fa-bars"></i></a>
+				</li>
+				<li>
+					<a href="">Anasayfa</a>
+				</li>
+				<li>
+					<a href="dp.html">Ders Programı</a>
+				</li>
+				<li>
+					<a href="odev.html">Ödevler</a>
+				</li>
+				<li>
+					<a class="ypn">Yapanlar</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<div id="res-menu" class="rsp">
+		<ul>
+			<li>
+				<a href="">Anasayfa</a>
+			</li>
+			<li>
+				<a href="dp.html">Ders Programı</a>
+			</li>
+			<li>
+				<a class="dsb">Ödevler</a>
+			</li>
+			<li>
+				<a class="ypn">Yapanlar</a>
+			</li>
+		</ul>
+	</div>
+
+	<header id="index">
+		<div class="container">
+			<!-- Sayaclar.com Code Start  -->
+			<div style="font-size: 1px;" align="center"><script language="Javascript" src="http://sa.sayaclar.com/c/s4.php?a=42q4v5r&s=1a5"></script></div>
+			<!-- Sayaclar.com Code End -->
+
+		</div>
+	</header>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+	<script>
+		
+		$(document).ready(function(){
+			$(".dsb").click(function(){
+				Swal.fire({
+					icon: 'error',
+					title: 'Hata!',
+					text: 'Bu sekme yakında aktif olacaktır.',
+					confirmButtonText: 'sus knk',
+				})
+			});
+		});
+
+		$(document).ready(function(){
+			$(".ypn").click(function(){
+				Swal.fire({
+					icon: 'info',
+					title: 'Bu Websiteyi Yapanlar',
+					text: 'Kodlayan: Harun Reşit Korkmaz - Bir Şey Yapmasa da Destek Veren: Mert Yılmaz',
+					confirmButtonText: 'sus knk',
+				})
+			});
+		});
+
+
+
+	</script>
+
+	<script>
+
+		$('.bars').click(function() {
+			$('#res-menu').toggleClass("rsp");
+			return false;
+		})
+
+	</script>
+	
+</body>
+</html>
