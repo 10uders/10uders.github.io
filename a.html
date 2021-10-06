@@ -77,14 +77,14 @@
 		
 		$(document).ready(function(){
 			$(".dsb").click(function(){
-				Swal.fire({
-					icon: 'error',
-					title: 'Hata!',
-					text: 'Bu sekme yakında aktif olacaktır.',
-					confirmButtonText: 'sus knk',
-				})
+				swal({
+					title: "Bilgilendirme!",
+					text: "Ödevler kısmı sayfası kodlanmaya devam ediliyor.",
+					icon: "info",
+					button: "Kapat",
+				});
 			});
-		});
+		});;
 
 		$(document).ready(function(){
 			$(".ypn").click(function(){
