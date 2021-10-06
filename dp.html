@@ -36,6 +36,9 @@
 				<li>
 					<a class="dsb">Ödevler</a>
 				</li>
+				<li>
+					<a class="ypn">Yapanlar</a>
+				</li>
 			</ul>
 		</div>
 	</nav>
@@ -170,6 +173,17 @@
 					icon: "info",
 					button: "Kapat",
 				});
+			});
+		});
+		
+		$(document).ready(function(){
+			$(".ypn").click(function(){
+				Swal.fire({
+					icon: 'info',
+					title: 'Bu Websiteyi Yapanlar',
+					text: 'Kodlayan: Harun Reşit Korkmaz - Bir Şey Yapmasa da Destek Veren: Mert Yılmaz',
+					confirmButtonText: 'sus knk',
+				})
 			});
 		});
 
